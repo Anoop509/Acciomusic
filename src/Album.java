@@ -21,7 +21,8 @@ public class Album {
 
     }
         public String getName() {
-            return name;
+
+        return name;
         }
 
         public void setName(String name) {
@@ -29,23 +30,24 @@ public class Album {
         }
 
         public String getArtist() {
-            return artist;
+
+        return artist;
         }
 
         public void setArtist(String artist) {
-            this.artist = artist;
+
+        this.artist = artist;
         }
 
         public List<Song> getSongs() {
-            return songs;
+
+        return songs;
         }
 
         public void setSongs(List<Song> songs) {
-            this.songs = songs;
+
+        this.songs = songs;
         }
-
-
-
 
         public  boolean findSong(String title){
         for(Song s : this.songs) {
@@ -97,8 +99,5 @@ public class Album {
         System.out.println("Invalid song number!!");
         return false;
     }
-
-
-
 }
 
